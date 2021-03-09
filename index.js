@@ -1,9 +1,9 @@
 const jwt = require("jsonwebtoken");
 
 let payload = {
-    iss: "testejwtgera",
-    iat: new Date().getSeconds(),
-    exp: new Date().setMinutes(60), // duracao
+    iss: "testejwtgera.com", //ORIGEM
+    iat: new Date().getSeconds(), // GERADO AS
+    exp: new Date().setMinutes(60), // DURACAO
     name: "vinnilmg",
     email: "vini.delimagomes@gmail.com"
 };

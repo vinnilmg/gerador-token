@@ -1,8 +1,11 @@
 # gerador-token
 Gerado de token JWT para testes
 
-Bibliotecas:
+Bibliotecas: </br>
 npm i jsonwebtoken --save
 
-Para testar:
+Para testar: </br>
 node index.js
+
+Validar: </br>
+https://jwt.io/
